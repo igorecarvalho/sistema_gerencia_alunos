@@ -14,7 +14,7 @@
             
         </v-toolbar>
         
-        <v-row dense cols="10">
+        <v-row dense cols="12">
 
             <v-col cols="6">
 
