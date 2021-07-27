@@ -2,9 +2,9 @@
 
     <v-container>
 
-        <v-toolbar flat>
+        <v-toolbar flat color="#254667">
 
-            <v-toolbar-title>
+            <v-toolbar-title class="toolbarTitulo">
                 <h2>
                     <strong>
                         Bem vindo! 
@@ -20,7 +20,7 @@
 
                 <v-card
                     style="padding: 10px; margin: 10px"
-                    color="teal"
+                    color="#325479"
                     dark
                     >
 
@@ -53,7 +53,7 @@
 
                 <v-card
                     style="padding: 10px; margin: 10px"
-                    color="purple"
+                    color="#325479"
                     dark
                     >
 
@@ -110,6 +110,10 @@
     #tabela {
         text-align: center;
         padding: 10px;
+    }
+
+    .toolbarTitulo{
+        color: white;
     }
 
 </style>

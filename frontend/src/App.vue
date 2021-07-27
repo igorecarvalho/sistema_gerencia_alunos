@@ -7,7 +7,7 @@
             <v-main cols="12"
                     align="center"
                     justify="center"
-                    class="grey lighten-2">
+                    class="background">
                     
                 <Header></Header>
                 <router-view></router-view>
@@ -40,5 +40,7 @@
 </script>
 
 <style>
-
+    .background{
+        background-color: #a7b1bb;
+    }
 </style>

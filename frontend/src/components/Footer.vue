@@ -11,7 +11,7 @@
             tile
             >
 
-            <v-card-title class="primary">
+            <v-card-title class="footer">
 
                 <strong class="subheading">API de cadastro de alunos</strong>
 
@@ -40,3 +40,13 @@
     };
 
 </script>
+
+<style>
+
+    .footer {
+        padding: 5px;
+        background-color: #0f3051;
+    }
+
+
+</style>

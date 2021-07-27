@@ -5,7 +5,8 @@
         <v-toolbar
             prominent
             dark
-            color="primary">
+            class="header"
+            color="#0f3051">
             
             <v-app-bar-nav-icon large @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
@@ -14,14 +15,6 @@
             </v-toolbar-title>
 
             <v-spacer></v-spacer>
-            
-            <v-avatar color="primary">
-                      <v-icon   color="white"
-                                large
-                                dark>
-                        mdi-account
-                    </v-icon>
-            </v-avatar>
 
         </v-toolbar>
 
